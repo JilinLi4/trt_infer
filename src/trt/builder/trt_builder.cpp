@@ -1,7 +1,7 @@
 ﻿#include "trt_builder.h"
 #include "spd_logger.h"
-#include "trt_logger.h"
-#include "trt/utils/trt_uitls.h"
+#include "common/trt_logger.h"
+#include "utils/trt_uitls.h"
 
 #include <fstream>
 #include <iostream>
