@@ -32,13 +32,18 @@ add_includedirs("src")
 add_includedirs("src/trt")
 add_files("src/**.cpp")
 
-
-target("Main")
-    set_kind("binary")
-    add_files("main.cpp")
-
 target("TestLogger")
     set_kind("binary")
     add_files("./test/logger_test.cpp")
 
+target("TestBuilder")
+    set_kind("binary")
+    add_files("./test/compile.cpp")
 
+target("ThreadTest")
+    set_kind("binary")
+    add_files("./test/ThreadTest/thread_func.cpp")
+
+target("PCMTest")
+    set_kind("binary")
+    add_files("./test/ThreadTest/product_customer.cpp")
